@@ -6526,6 +6526,10 @@ DEFINE CLASS c_conversor_base AS Custom
 			, tcExtension = 'INI', 'T' ;
 			, tcExtension = 'BAT', 'T' ;
 			, tcExtension = 'FPW', 'T' ;
+			, tcExtension = 'CSS', 'T' ;
+			, tcExtension = 'JS', 'T' ;
+			, tcExtension = 'XML', 'T' ;
+			, tcExtension = 'MAP', 'T' ;
 			, tcExtension = 'H', 'T' ;
 			, tcExtension = 'HTM', 'T' ;
 			, tcExtension = 'HTML', 'T' ;
@@ -28279,7 +28283,7 @@ DEFINE CLASS CL_LANG AS Custom
 					.C_EXTERNAL_CLASS_COUNT_DOES_NOT_MATCH_FOUND_CLASSES_LOC		= "Nombre de classe externe (<<toModulo._ExternalClasses_Count>>) ne correspond pas classes trouvées (<<toModulo._Clases_Count>>) pour le fichier [<<toFoxBin2Prg.c_InputFile>>]"
 					.C_EXTERNAL_CLASS_NAME_WAS_NOT_FOUND_LOC						= "Aucune classe externe est trouvé"
 					.C_EXTERNAL_MEMBER_NAME_WAS_NOT_FOUND_LOC						= "Nom de membre externe n'a pas été trouvé"
-					.C_EXTERNAL_PARAMETERS_LOC										= "PARAMÈTRES EXTERNES"
+					.C_EXTERNAL_PARAMETERS_LOC										= "PARAMETRES EXTERNES"
 					.C_FIELD_NOT_FOUND_ON_FILE_STRUCTURE_LOC						= "Champ [<< laProps (m.I) >>] ne trouve pas dans la structure du fichier DBF <<('TABLABIN')>>"
 					.C_FILE_DOESNT_EXIST_LOC										= "Fichier ne existe pas:"
 					.C_FILE_NAME_IS_NOT_SUPPORTED_LOC								= "File [<<.c_InputFile>>] ne est pas supporté"
@@ -28336,7 +28340,7 @@ DEFINE CLASS CL_LANG AS Custom
 					.C_PROCESSING_LOC												= "Traitement du fichier"
 					.C_PROCESS_PROGRESS_LOC											= "Processus Progrès:"
 					.C_PROPERTY_NAME_NOT_RECOGNIZED_LOC								= "Propriété [<<TRANSFORM(tnPropertyID)>>] ne est pas reconnu."
-					.C_READING_CFG_VALUES_FROM_DISK_LOC								= "VALEURS LECTURE CFG À PARTIR DU DISQUE"
+					.C_READING_CFG_VALUES_FROM_DISK_LOC								= "VALEURS LECTURE CFG A PARTIR DU DISQUE"
 					.C_REPORT_NOT_IN_VFP9_FORMAT_LOC								= "Rapport [<<THIS.c_InputFile>>] ne est pas dans VFP 9 Format! - Se il vous plaît se convertir à VFP 9 avec MODIFY REPORT '<<THIS.c_InputFile>>'"
 					.C_REQUESTING_CAPITALIZATION_OF_FILE_LOC						= "- Demande de capitalisation de fichier [<<tcFileName>>]"
 					.C_SCANNING_FILE_AND_DIR_INFO_LOC								= "Fichier de numérisation et de l'information de répertoire pour"
